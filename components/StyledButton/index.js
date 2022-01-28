@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, Pressable } from 'react-native'
 import styles from "./styles";
-//***********************deconstructed properties below*************/
+//***********************destructed properties below*************/
 const StyledButton = ({ type, content, onPress }) => {
     // setting the color best on the value in the pressable button
-    const backgroundColor = type === 'primary' ? '#171A20CC' : 'blue'
+    const backgroundColor = type === 'primary' ? '#171A20CC' : 'yellow'
     const textColor = type === 'primary' ? 'white' : '#171A20CC'
 
     return (
